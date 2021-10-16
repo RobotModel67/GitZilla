@@ -8,4 +8,9 @@ git config --global user.email="xxx@yyyy"
 git init
 .gitignore
 git status
-git add -A
+git add *
+git log
+
+git remote add origin https://github.com/RobotModel67/GitZilla.git
+git branch -M main
+git push -u origin main
