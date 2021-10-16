@@ -15,8 +15,12 @@ git log
 
 git remote add origin https://github.com/RobotModel67/GitZilla.git
 git branch -M main
-git push -u origin main
+git pull -u origin main
 
 git diff
 git remote set-url origin https://RobotModel67@github.com/RobotModel67/GitZilla.git
 git push origin master
+
+git branch hotfix
+git checkout hotfix
+git push -u origin hotfix
